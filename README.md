@@ -20,7 +20,7 @@ The theme of the project was that the game had to be in the style of Gyruss. Gyr
 ### Compiling from Source
 - Only need game-source-code files and Resources (inside executables) folder to compile 
 - Put all the files in a folder so that there are 50 game source files and 1 Resource folder together
-- In terminal:
+- Inside said folder, open terminal and type:
 
 ```shell
 $ g++ -c Asteroid.cpp Asteroid.h CollisionHandler.cpp CollisionHandler.h Direction.h Enemy.cpp Enemy.h EnemyBullet.cpp EnemyBullet.h EnemySpawner.cpp EnemySpawner.h EntityType.h GameOverScreen.cpp GameOverScreen.h GameState.h Grid.cpp Grid.h HighScoreManager.cpp HighScoreManager.h IMovingEntity.cpp IMovingEntity.h IShootingMovingEntity.cpp IShootingMovingEntity.h LaserField.cpp LaserField.h LaserGenerator.cpp LaserGenerator.h Logic.cpp Logic.h main.cpp Player.cpp Player.h PlayerBullet.cpp PlayerBullet.h Position.cpp Position.h Presentation.cpp Presentation.h ResourceManager.cpp ResourceManager.h ResourceType.h Satellite.cpp Satellite.h SplashScreen.cpp SplashScreen.h StopWatch.cpp StopWatch.h WeaponType.h WinnerScreen.cpp WinnerScreen.h
