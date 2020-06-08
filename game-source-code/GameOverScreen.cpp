@@ -6,7 +6,7 @@ GameOverScreen::GameOverScreen()
     _gameOverTexture.loadFromFile("Resources/Background.png");
 }
 
-void GameOverScreen::show(sf::RenderWindow& renderWindow, const int& score, const& highscore)
+void GameOverScreen::show(sf::RenderWindow& renderWindow, const int& score, const int& highscore)
 {
     sf::Sprite background;
     background.setTexture(_gameOverTexture);

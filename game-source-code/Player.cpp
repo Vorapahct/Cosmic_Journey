@@ -1,5 +1,5 @@
 #include "Player.h"
-#include <Functional>
+#include <functional>
 
 Player::Player(const Grid& grid) 
     : _grid(grid),

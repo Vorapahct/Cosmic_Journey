@@ -18,7 +18,7 @@ class WinnerScreen
         * @brief Displays the WinnerScreen.
         * @param renderWindow is of type sf::RenderWindow which holds the window to render on the monitor. 
         */
-        void show(sf::RenderWindow& renderWindow, const int& score, const& highscore);
+        void show(sf::RenderWindow& renderWindow, const int& score, const int& highscore);
         /**
         * @brief Default destructor. Creates WinnerScreen object.
         */

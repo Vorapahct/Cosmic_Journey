@@ -6,7 +6,7 @@ WinnerScreen::WinnerScreen()
     _winnerTexture.loadFromFile("Resources/Background.png");
 }
 
-void WinnerScreen::show(sf::RenderWindow& renderWindow, const int& score, const& highscore)
+void WinnerScreen::show(sf::RenderWindow& renderWindow, const int& score, const int& highscore)
 {
     sf::Sprite background;
     background.setTexture(_winnerTexture);

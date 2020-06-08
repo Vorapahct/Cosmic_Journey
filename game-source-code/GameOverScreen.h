@@ -17,7 +17,7 @@ class GameOverScreen
         * @brief Displays the GameOverScreen
         * @param renderWindow is of type sf::RenderWindow 
         */
-        void show(sf::RenderWindow& renderWindow, const int& score, const& highscore);
+        void show(sf::RenderWindow& renderWindow, const int& score, const int& highscore);
         /**
         * @brief Default destructor. Deletes GameOverScreen object
         */

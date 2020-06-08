@@ -6,7 +6,7 @@
 #include <ctime> 
 #include <vector>
 
-#include "stopwatch.h"
+#include "StopWatch.h"
 #include "Presentation.h"
 #include "CollisionHandler.h"
 #include "GameState.h"
