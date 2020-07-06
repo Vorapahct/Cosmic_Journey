@@ -14,7 +14,7 @@ The theme of the project was that the game had to be in the style of Gyruss. Gyr
 - Clone the repo using `git clone git@github.com:Vorapahct/Cosmic_Journey.git`
 
 ### Running Pre-Compiled
-- Double-click game.exe (Windows)
+- Use game.exe (Windows)
 - Use `./game` in terminal (Linux/Ubuntu)
 
 ### Compiling from Source
